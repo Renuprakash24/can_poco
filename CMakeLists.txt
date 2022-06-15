@@ -7,4 +7,7 @@ add_executable(app Can_main.cpp)
 
 target_compile_features(app PUBLIC cxx_std_11)
 
-target_include_directories(app PUBLIC ${} /include)
+target_include_directories(app PUBLIC ${/root/.jenkins/workspace/now/include} /include)
+
+target_include_directories(app PUBLIC ${/root/.jenkins/workspace/now/Poco /include}
+
