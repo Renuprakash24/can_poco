@@ -10,8 +10,8 @@ target_compile_features(app PUBLIC cxx_std_11)
 
 
 
-include_directories(root/.jenkins/workspace/now/Poco)
 
 
-add_executable(app can_poco/include/Can_main.cpp)
+
+add_executable(app can_poco/include/Can_main.cpp  root/.jenkins/workspace/now/Poco/OSP/OSP.h)
 
